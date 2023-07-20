@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   const [socket] = useState(() => io(':8000'));
 
-  const [name, setName] = useState('');
+  
   const [messages, setMessages] = useState([]);
 
   useEffect(() => {
